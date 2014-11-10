@@ -1,4 +1,5 @@
 require 'rspec/core/formatters/base_text_formatter'
+require_relative '../rspec_api_documentation'
 
 module RspecApiDocumentation
   class ApiFormatter < RSpec::Core::Formatters::BaseTextFormatter
